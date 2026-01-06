@@ -10,7 +10,7 @@
 </svelte:head>
 
 <a href="/">home</a>
-<a href="/yo">Yo</a>
+<a href="/yo">Yko</a>
 
 <main class="container">
 	{@render children()}
