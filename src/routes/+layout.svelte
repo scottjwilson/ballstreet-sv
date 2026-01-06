@@ -1,5 +1,6 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
+	import '../app.css';
 
 	let { children } = $props();
 </script>
@@ -10,4 +11,7 @@
 
 <a href="/">home</a>
 <a href="/yo">Yo</a>
-{@render children()}
+
+<main class="container">
+	{@render children()}
+</main>
