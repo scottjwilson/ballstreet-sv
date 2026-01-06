@@ -127,6 +127,10 @@ body {
 	font-family: var(--font-sans);
 }
 
+h1 {
+	line-height: var(--leading-normal);
+}
+
 input {
 	background-color: var(--bg-elevated);
 	border: 1px solid var(--bg-tertiary);
@@ -136,7 +140,7 @@ input {
 
 button {
 	padding: var(--space-3);
-	background-color: var(--bg-primary);
+	background-color: var(--accent-blue);
 	border: 0;
 	color: var(--text-primary);
 	border-radius: var(--radius-sm);
